@@ -1,6 +1,6 @@
 {
   "name": "appkit-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Calendar for Appkit",
   "scripts": {},
   "keywords": [],
@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "prop-types": "^15.6.1",
     "react-native-calendar": "^0.13.0"
   },
   "engines": {
