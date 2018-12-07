@@ -1,6 +1,6 @@
 {
   "name": "appkit-calendar",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React Native Calendar for Appkit",
   "scripts": {},
   "keywords": [],
@@ -21,7 +21,7 @@
     "components": [
       {
         "name": "Calendar",
-        "script": "index.js"
+        "script": "calendar.js"
       },
       {
         "name": "CalendarStrip",
