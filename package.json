@@ -1,6 +1,6 @@
 {
   "name": "appkit-calendar",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "React Native Calendar for Appkit",
   "scripts": {},
   "keywords": [],
@@ -8,8 +8,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.22.2",
     "prop-types": "^15.6.1",
-    "react-native-calendar": "^0.13.0"
+    "react-native-calendar": "^0.13.0",
+    "react-native-calendar-strip-slide-navigation": "0.0.3"
   },
   "engines": {
     "appkit": "^1.0.0"
@@ -20,8 +22,17 @@
       {
         "name": "Calendar",
         "script": "index.js"
+      },
+      {
+        "name": "CalendarStrip",
+        "script": "calendar-strip.js"
       }
     ],
-    "libs": []
+    "libs": [
+      {
+        "name": "moment",
+        "script": "moment.js"
+      }
+    ]
   }
 }
