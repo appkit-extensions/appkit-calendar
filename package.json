@@ -11,7 +11,7 @@
     "moment": "^2.22.2",
     "prop-types": "^15.6.1",
     "react-native-calendar": "^0.13.0",
-    "react-native-calendar-strip-slide-navigation": "0.0.3"
+    "react-native-calendar-strip-slide-navigation": "git+https://github.com/appkit-shared/react-native-calendar-strip.git"
   },
   "engines": {
     "appkit": "^1.0.0"
